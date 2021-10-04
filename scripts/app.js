@@ -124,11 +124,11 @@ function update() {
 	}
 
 	if (cursors.up.isDown && player.body.touching.down) {
-		player.setVelocityY(-330);
+		player.setVelocityY(-2000);
 	}
 
 	if (cursors.down.isDown) {
-		player.setVelocity(0);
+		player.setVelocityY(200);
 	}
 }
 
